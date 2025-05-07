@@ -14,7 +14,6 @@ Este projeto simula uma lista de produtos com carrinho de compras, aplicando con
 - ❌ Remover itens do carrinho  
 - 🧾 Confirmar pedido e iniciar um novo  
 
-
 ## 💡 Tecnologias e Ferramentas
 
 - ✅ **HTML5**  
@@ -22,3 +21,27 @@ Este projeto simula uma lista de produtos com carrinho de compras, aplicando con
 - ✅ **TypeScript**  
 - ✅ **Vite**  
 - ✅ **POO (Programação Orientada a Objetos)**  
+
+## 🧪 Como Testar o Projeto
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/joao769/product-list-with-cart.git
+```
+
+2. Acesse a pasta do projeto:
+```bash
+cd product-list-with-cart
+```
+
+3. Instale as dependências:
+```bash
+npm install
+```
+
+4. Inicie o servidor de desenvolvimento:
+```bash
+npm run dev
+```
+
+> 💡 É necessário ter o [Node.js](https://nodejs.org/) instalado.
