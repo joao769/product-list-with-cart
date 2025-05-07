@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./public/assets/images/favicon-32x32.png" />
+  <title>Frontend Mentor | Product list with cart</title>
+  <link rel="stylesheet" href="src/style.css" />
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="inner-wrap">
+
+      <section class="grid">
+        <h1>Desserts</h1>
+        <ul class="products"></ul>
+      </section>
+
+      <aside>
+        <section class="cart">
+          <h2>Your Cart (<span>0</span>)</h2>
+          <ul class="list-cart"></ul>
+
+          <img class="empty-cart" src="./public/assets/images/illustration-empty-cart.svg" alt="Empty Cart" />
+          <p class="cart-message">Your added items will appear here</p>
+
+          <div class="order-total-cart"></div>
+
+          <div class="carbon-neutral-cart"></div>
+
+          <div class="confirm-order-cart"></div>
+        </section>
+      </aside>
+
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/joao769" target="_blank">João Victor</a>.
+  </div>
+
+  <script type="module" src="./src/main.ts"></script>
+</body>
+
+</html>
